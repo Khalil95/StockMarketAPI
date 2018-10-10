@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMarketAPI", "StockMarketAPI\StockMarketAPI.csproj", "{0CD63457-08E1-495B-B673-F2A053262D55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMarketAPITests", "StockMarketAPITests\StockMarketAPITests.csproj", "{C23C7E62-8ADE-4D0C-9297-FEF68FE7B4C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0CD63457-08E1-495B-B673-F2A053262D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CD63457-08E1-495B-B673-F2A053262D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CD63457-08E1-495B-B673-F2A053262D55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C23C7E62-8ADE-4D0C-9297-FEF68FE7B4C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C23C7E62-8ADE-4D0C-9297-FEF68FE7B4C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C23C7E62-8ADE-4D0C-9297-FEF68FE7B4C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C23C7E62-8ADE-4D0C-9297-FEF68FE7B4C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
