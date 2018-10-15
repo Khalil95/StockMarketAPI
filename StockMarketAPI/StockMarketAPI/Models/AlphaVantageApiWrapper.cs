@@ -21,7 +21,7 @@ namespace StockMarketAPI.Models
 
             //convertir en object avec rootAvmachin
 
-            return apiData;
+            return null;
         }
 
         public class ApiParam

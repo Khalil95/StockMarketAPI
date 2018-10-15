@@ -1,4 +1,5 @@
-﻿using System.Security.Claims;
+﻿using System.Collections.ObjectModel;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
@@ -16,6 +17,8 @@ namespace StockMarketAPI.Models
             // Ajouter des revendications d’utilisateur personnalisées ici
             return userIdentity;
         }
+
+        public Collection<Stock> Stocks { get; set; }
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>

@@ -13,7 +13,7 @@ namespace StockMarketAPI.DataAccess.Tests
     public class AlphaVantageApiDbLoaderTests
     {
         [TestMethod()]
-        public async Task TestAsyncTestAsync()
+        public async Task TestAsyncTestAsync(string symbole = "AAPL")
         {
             var API_KEY = "X29IZ87X3MQOLPUZ";
 
@@ -30,7 +30,7 @@ namespace StockMarketAPI.DataAccess.Tests
                 };
 
                 //Start Collecting SMA values
-                var SMA_5 = await AlphaVantageApiWrapper.GetTechnical(parameters, API_KEY);
+                var SMA_5 = await AlphaVantageApiWrapper.GetTechnical(symbole, API_KEY);
                 parameters.FirstOrDefault(x => x.ParamName == "time_period").ParamValue = "20";
             }
         }
